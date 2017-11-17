@@ -11,7 +11,7 @@ You can serch for items/product in search field.
 On click on 'add to cart' buttons the states of the button changes.
 
 Technichalities:
-The app is built using easily available js library i.e raect.js
+The app is built using easily available js library i.e React.js
 
 All about status state:
 I have three states in the app on button click.
