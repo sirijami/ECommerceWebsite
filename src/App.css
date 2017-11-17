@@ -1,0 +1,106 @@
+body{
+  font-size: 1rem;
+  font-family: 'Pathway Gothic One', sans-serif;
+  background: url('./bg.jpg') no-repeat;
+}
+#logoStyle{
+  margin-left: 2%;
+}
+#signInSection{
+  width: 27%;
+  margin-left: 4%;
+  margin-top: 7%;
+  padding: 2%;
+
+}
+
+.labelStyle{
+  font-size: 1.5rem;
+}
+.inputStyle{
+  width: 80%;
+  padding: 2% 2% ;
+  margin: 2% 0;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color:transparent;
+}
+.buttonStyle{
+  width: 15%;
+  background-color: #bf916f;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-left: 6%;
+}
+input:focus{
+  outline: none;
+}
+#createAccountStyle{
+  width: 27%;
+  margin-left: 2%;
+  padding: 2%;
+}
+.SearchBarStyle{
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  font-size: 1rem;
+}
+
+.filterStyle{
+  margin-top: 1%;
+  margin-left: 15%;
+  font-size: 1.3rem;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color:#cea689;
+}
+th{
+  color: darkblue;
+  font-style: italic;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+  padding-left: 3%;
+  font-size: 1.3rem;
+}
+tbody{
+  cursor: pointer;
+}
+tr:hover {background-color: #eeddd2}
+.updateEmail{
+  margin-left: 6%;
+}
+.errorMessage{
+  color: red;
+  margin-left: 6%;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.stateButton{
+  width: 80%;
+  background-color: darkblue;
+  border: none;
+  color: white;
+  padding: 4% 4%;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 50px;
+}
